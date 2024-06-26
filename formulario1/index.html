@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário HTML</title>
+</head>
+<body>
+    <ol>
+       <li>Nome dos participantes</li> 
+       <ul>
+        <li>Rafaella Victoria Araujo Lima</li>
+       </ul>
+       <br>
+       <li>Perguntas e Respostas</li>
+
+       <ul style="list-style-type: lower-alpha;">
+
+        <li>Na tag &lt input &gt com atributo type="text", para que serve o atributo "placeholder"?</li>
+        <ul style="list-style-type:circle">
+           <li>Cumpre a função de fornecer ao usuário uma dica que descreve o valor esperado em um dado campo de entrada.</li> 
+        </ul>
+        <br>
+
+        <li>Na tag &lt input &gt com atributo type="radio" ou type="checkbox", para que serve o atributo "checked"?</li>
+        <ul style="list-style-type:circle">
+            <li>Cumpre a função de definir se o componente está checado.</li> 
+         </ul>
+         <br>
+
+        <li>Na tag &lt input &gt para que serve o atributo "value"?</li>
+        <ul style="list-style-type:circle">
+            <li>Cumpre a função de definir o valor enviado por este item. </li> 
+         </ul>
+         <br>
+
+        <li>Que atributo deve ser utilizado para agrupar vários botões de rádio em um formulário de modo que apenas um deles fique marcado de cada vez?</li>
+        <ul style="list-style-type:circle">
+            <li> Você deve usar o atributo value para definir o valor a ser enviado por este item. Use o atributo checked para indicar se este item deve estar selecionado por padrão.</li> 
+         </ul>
+         <br>
+
+        <li>Para que serve a tag &lt label &gt? Para que serve o atributo "for" nessa tag?</li>
+        <ul style="list-style-type:circle">
+            <li>Label= definir um rótulo para elementos do formulário. O atributo for faz um tipo de link entre a label e o input . Logo o for tem que apontar para o ID do input .</li> 
+         </ul>
+         <br>
+
+        <li>Na tag &lt option &gt para que serve o atributo "selected"?</li>
+        <ul style="list-style-type:circle">
+            <li>Permite especificar que um controle de formulário deve ter foco de entrada quando a página é carregada, a não ser que o usuário o substitua, por exemplo digitando em um controle diferente.</li> 
+         </ul>
+         <br>
+
+        <li>Nas tags de formulário para que serve o atributo "required"?</li>
+        <ul style="list-style-type:circle">
+            <li>O atributo required indica que esse campo é obrigatório, e portanto, a opção selecionada não deve ter valor vazio.</li> 
+         </ul>
+         <br>
+
+        <li>Para que serve a tag &lt textarea &gt?</li>
+        <ul style="list-style-type:circle">
+            <li>Representa um controle de edição para uma caixa de texto, útil quando você quer permitir ao usuário informar um texto extenso em formato livre, como um comentário ou formulário de retorno.</li> 
+         </ul>
+         <br>
+
+        <li>Na tag &lt form &gt para que serve o atributo "action"?</li>
+        <ul style="list-style-type:circle">
+            <li>Define o local (uma URL) em que os dados recolhidos do formulário devem ser enviados</li> 
+         </ul>
+         <br>
+
+        <li>Na tag &lt form &gt para que serve o atributo "method"? </li>
+        <ul style="list-style-type:circle">
+            <li>Define qual o método HTTP para enviar os dados </li> 
+         </ul>
+         <br>
+
+        <li>Para que o valor digitado de uma senha não apareça na barra de endereços do navegador, qual deve ser o valor do atributo "method" na tag &lt form &gt?</li>
+        <ul style="list-style-type:circle">
+            <li>Deve-se usar o valor POST</li> 
+         </ul>
+         <br>
+
+        <li>Qual valor deve ser informado no atributo "method" na tag &lt form &gt em um formulário que será usado para fazer upload de arquivos?</li>
+        <ul style="list-style-type:circle">
+            <li>O atributo ACTION é quem diz para onde os dados de um formulário deve ser enviado.</li> 
+         </ul>
+         <br>
+
+        <li>O que as tags &lt fieldset &gt e &lt legend &gt produzem?</li>
+        <ul style="list-style-type:circle">
+            <li> a tag &lt fieldset &gt é usada para agrupar elementos, assim como a tag &lt label &gt, dentro de um formulário web. Já a tag &lt legend &gt define uma legenda para o elemento &lt fieldset &gt.</li> 
+         </ul>
+         <br>
+    </ul>
+    <li> 
+        <a href= "formulario.html"> 
+            <button>Clique para Ir para Outra Página</button>
+        </a>
+     </li>
+    </ol>
+    <div class="box">
+        <form>
+         <fieldset> 
+        
+          <label for="nome">Nome:</label>
+          <input type="text" id="nome" name="nome" required><br>
+      
+          <label for="data de nascimento">Data de Nascimento:</label>
+          <input type="data de nascimento" id="data de nascimento" name="data de nascimento" required><br>
+      
+          <label for="sexo">Sexo:</label>
+
+          <input type="radio" id="masculino" name="genero" value="masculino" required>
+          <label for="masculino">Masc</label>
+
+          <input type="radio" id="feminino" name="genero" value="feminino" required>
+          <label for="feminino">Fem</label>
+
+          <input type="radio" id="nao" name="genero" value="nao" required>
+          <label for="nao">Prefiro não informar</label><br>
+      
+          <label for="endereco">Endereço:</label>
+          <input type="endereco" id="endereco" name="endereco" required><br>
+      
+          <label for="lograduro">Lograduro:</label>
+          <input type="lograduro" id="lograduro"  name="lograduro"  required><br>
+      
+          <label for="bairro">Bairro:</label>
+          <input type="bairro" id="bairro" name="bairro" required><br>
+      
+          <label for="cidade">Cidade:</label>
+          <input type="cidade" id="cidade" name="cidade" requerid><br>
+      
+          <label for="uf">UF:</label><br>
+          <select id="uf" name="uf" required>
+            <option valeu="" disabled selected>Selecione...</option>
+            <option value="AC">ACRE</option>
+            <option value="CE">Ceará</option>
+            <option value="DF">Distrito Federal</option>
+            <option value="MA">Maranhão</option>
+            <option value="RJ">Rio de Janeiro</option>
+          </select><br>
+      
+      
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required><br>
+      
+      
+          <button type="submit">Limpar</button>
+          <button type="submit">Enviar</button>
+        </fieldset>
+      </form>
+      </div>
+        
+    
+    
+    
+</body>
+</html>
